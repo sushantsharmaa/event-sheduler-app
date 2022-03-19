@@ -1,0 +1,54 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #313552 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+.box {
+  max-width: 350px;
+  padding: 30px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  color: #313552;
+  text-align: center;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+#btn {
+  text-align: center;
+  padding: 20px
+}
+
+#btn>input {
+  min-height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #313552;
+  color: #fff;
+}
+
+select {
+  padding: 1px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

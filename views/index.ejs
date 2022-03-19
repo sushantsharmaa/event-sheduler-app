@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>EVENT SHEDULER</title>
+  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<div id="heading">
+  <h1>ENTER TEXT AND SELECT DATE & TIME</h1>
+</div>
+
+<div class="box">
+  <form action="/" method="post">
+    <input type="text" id="name" name="text" placeholder="ENTER TEXT" va>
+    <select class="" name="dateTime">
+      <%  eventList.forEach(function(item){ %>
+      <option name="dateTime"><%= item.dateTime %></option>
+      <%  }) %>
+    </select>
+    <div id="btn">
+      <input type="submit" name="" value="SUBMIT">
+    </div>
+  </form>
+</div>
+
+<footer>
+  © 2022 SUSHANT SHARMA
+</footer>
+
+<body>
